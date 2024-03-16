@@ -1,5 +1,10 @@
 text_progress += 0.75;
 
+up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
+down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
+response_selected += down - up + array_length_1d(responses);
+response_selected %= array_length_1d(responses);
+
 if (keyboard_check_pressed(vk_space)) {
     var _message_length = string_length(display_message);
     if (text_progress >= _message_length) {

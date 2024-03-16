@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"player_object","path":"objects/player_object/player_object.yy",},"order":3,},
+    {"id":{"name":"titania","path":"sprites/titania/titania.yy",},"order":5,},
     {"id":{"name":"block","path":"sprites/block/block.yy",},"order":0,},
     {"id":{"name":"text_font","path":"fonts/text_font/text_font.yy",},"order":0,},
     {"id":{"name":"text_queue_object","path":"objects/text_queue_object/text_queue_object.yy",},"order":5,},
@@ -11,9 +12,11 @@
     {"id":{"name":"NineSliceBoxStretch","path":"scripts/NineSliceBoxStretch/NineSliceBoxStretch.yy",},"order":1,},
     {"id":{"name":"player","path":"sprites/player/player.yy",},"order":1,},
     {"id":{"name":"text_object","path":"objects/text_object/text_object.yy",},"order":4,},
+    {"id":{"name":"ScriptExecuteArray","path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},"order":2,},
     {"id":{"name":"player_left","path":"sprites/player_left/player_left.yy",},"order":3,},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},"order":0,},
     {"id":{"name":"text_box","path":"sprites/text_box/text_box.yy",},"order":4,},
+    {"id":{"name":"titania_object","path":"objects/titania_object/titania_object.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
