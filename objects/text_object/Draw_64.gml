@@ -2,15 +2,17 @@ var _print = string_copy(display_message, 1, text_progress);
 
 var _l = "";
 
-_l += "\n";
-for (var i=0; i<array_length_1d(responses); i++) {
+if (array_length_1d(responses) != 0) {
 	_l += "\n";
-	if (i == response_selected) _l += "> ";
-	_l += responses[i];
-	if (i == response_selected) _l += " <";
+	for (var i=0; i<array_length_1d(responses); i++) {
+		_l += "\n";
+		if (i == response_selected) _l += "> ";
+		_l += responses[i];
+		if (i == response_selected) _l += " <";
+	}
 }
 
-if (responses[0] != -1 && text_progress >= string_length(display_message))
+if (array_length_1d(responses) != 0 && text_progress >= string_length(display_message))
 	_print += _l;
 
 

@@ -1,4 +1,6 @@
-found_entity = instance_place(x+lengthdir_x(15, direction), y+lengthdir_y(15, direction), parent_entity);
+_radius = 20;
+
+found_entity = instance_place(x+lengthdir_x(_radius, direction), y+lengthdir_y(_radius, direction), parent_entity);
 if (found_entity != noone) {
 	if (keyboard_check_pressed(ord("E")) && found_entity.activate_script != -1) {
 		ScriptExecuteArray(found_entity.activate_script, found_entity.activate_args);

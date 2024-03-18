@@ -3,6 +3,7 @@ function NewTextBox(){
     with (instance_create_depth(0, 0, -bbox_bottom, _object)) {
         display_message = argument[0];
         origin_instance = instance_exists(other) ? other.id : noone;
-        background = argument_count > 1 ? argument[1] : 1;
+		responses = argument_count > 1 ? argument[1] : [];
+		response_script = argument_count > 2 ? argument[2] : -1;
     }
 }

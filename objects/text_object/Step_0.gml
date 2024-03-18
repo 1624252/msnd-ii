@@ -1,9 +1,11 @@
 text_progress += 0.75;
 
-up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
-down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
-response_selected += down - up + array_length_1d(responses);
-response_selected %= array_length_1d(responses);
+if (array_length_1d(responses) != 0) {
+	up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
+	down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
+	response_selected += down - up + array_length_1d(responses);
+	response_selected %= array_length_1d(responses);
+}
 
 if (keyboard_check_pressed(vk_space)) {
     var _message_length = string_length(display_message);
@@ -11,6 +13,8 @@ if (keyboard_check_pressed(vk_space)) {
         instance_destroy();
         if (instance_exists(text_queue_object))
             with (text_queue_object) ticket--;
+		if (response_script != -1)
+			script_execute(response_script, response_selected);
     } else if (text_progress > 2)
         text_progress = _message_length;
 }
