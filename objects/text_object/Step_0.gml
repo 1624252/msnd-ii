@@ -22,8 +22,15 @@ if (keyboard_check_pressed(vk_space)) {
 			start_end_array[0].sprite_index = start_end_array[2];
 		if (end_function != -1)
 			script_execute(end_function);
+		/*
         if (instance_exists(text_queue_object))
             with (text_queue_object) ticket--;
+		*/
+		if (ds_queue_size(camera.queue) > 0) {
+			ds_queue_dequeue(camera.queue).unqueue();
+		}
+		
+		
 		if (response_script != -1)
 			script_execute(response_script, response_selected);
     } else if (text_progress > 2)
