@@ -30,19 +30,4 @@
     } else {
 		y += _vertical_speed;
 	}
-	
-	/*
-	found_entity = instance_place(x+lengthdir_x(15, direction), y+lengthdir_y(15, direction), parent_entity);
-	if (found_entity != noone) {
-		show_debug_message("1");
-		if (keyboard_check_pressed(ord("E")) && found_entity.activate_script != -1) {
-			ScriptExecuteArray(found_entity.activate_script, found_entity.activate_args);
-		} else {
-			show_debug_message("dsklfjldsf");
-			draw_set_font(text_font);
-			draw_set_color(c_white);
-			draw_text(x, y, "(Press \"E\" to interact).");
-		}
-	}
-	*/
 }

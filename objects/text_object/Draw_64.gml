@@ -3,7 +3,6 @@ var _print = string_copy(display_message, 1, text_progress);
 var _l = "";
 
 if (array_length_1d(responses) != 0) {
-	_l += "\n";
 	for (var i=0; i<array_length_1d(responses); i++) {
 		_l += "\n";
 		if (i == response_selected) _l += "> ";
@@ -12,27 +11,34 @@ if (array_length_1d(responses) != 0) {
 	}
 }
 
-if (array_length_1d(responses) != 0 && text_progress >= string_length(display_message))
-	_print += _l;
-
-
 
 _p = 20; // Padding.
-//_h = 60; // Height.
-_h = string_height(display_message + _l) + 5;
 
 x1 = 0+_p;
-y1 = 640-_h-_p*2;
 x2 = 1024-_p;
+
+_name_padding = 10;
+
+//_h = 60; // Height.
+_h = string_height(speaker + display_message + "\n" + _l) + 10 + _name_padding;
+
+y1 = 640-_h-_p*3;
 y2 = 640-_p;
 
 
 NineSliceBoxStretch(text_box, x1, y1, x2, y2, 0);
-draw_set_font(text_font);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
 
+draw_set_font(text_font_bold);
+draw_text(x1+_p*1.5, y1+_p, speaker);
+draw_set_font(text_font);
+draw_text(x1+_p*1.5, y1+_p + _name_padding +(speaker == "" ? 0 : string_height(speaker)), _print);
 
-draw_text((x1+x2)/2, y1+12, _print);
-draw_text(x2-90, y2-25, "(Space to continue).");
+draw_set_halign(fa_center);
+if (array_length_1d(responses) != 0 && text_progress >= string_length(display_message))
+	draw_text((x1+x2)/2, y1+_p + _name_padding +string_height(speaker + _print), _l);
+
+draw_set_halign(fa_right);
+draw_text(x2-15, y2-25, "(Space to continue).");

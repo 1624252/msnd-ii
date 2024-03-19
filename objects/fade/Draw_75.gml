@@ -1,6 +1,5 @@
 {
 	draw_set_alpha(image_alpha);
-	show_debug_message(image_alpha);
 
 	draw_set_color(c_black);
 	draw_rectangle(0,  0, 1024, 640, false);
@@ -19,5 +18,5 @@
 	draw_set_halign(fa_right);
 	draw_set_valign(fa_bottom);
 	draw_text(1024-20, 640-20, "(Space to continue).");
-	draw_text(50, 50, image_alpha);
+	draw_set_alpha(1)
 }
