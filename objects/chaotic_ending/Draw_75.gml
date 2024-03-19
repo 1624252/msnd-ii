@@ -22,6 +22,5 @@
 		draw_set_valign(fa_bottom);
 		draw_text(1024-20, 640-20, "(Space to continue).");
 	}
-	
 	draw_set_alpha(1)
 }

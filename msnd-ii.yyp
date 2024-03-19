@@ -5,6 +5,7 @@
     {"id":{"name":"demetrius","path":"sprites/demetrius/demetrius.yy",},"order":9,},
     {"id":{"name":"player_object","path":"objects/player_object/player_object.yy",},"order":3,},
     {"id":{"name":"titania_sleeping","path":"sprites/titania_sleeping/titania_sleeping.yy",},"order":5,},
+    {"id":{"name":"ChaoticEnding","path":"rooms/ChaoticEnding/ChaoticEnding.yy",},"order":1,},
     {"id":{"name":"oberon_sleeping_object","path":"objects/oberon_sleeping_object/oberon_sleeping_object.yy",},"order":14,},
     {"id":{"name":"player_sleeping","path":"sprites/player_sleeping/player_sleeping.yy",},"order":16,},
     {"id":{"name":"chaotic_ending","path":"objects/chaotic_ending/chaotic_ending.yy",},"order":20,},
@@ -57,6 +58,7 @@
     {"id":{"name":"Wrap","path":"scripts/Wrap/Wrap.yy",},"order":4,},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},"order":0,},
     {"id":{"name":"text_box","path":"sprites/text_box/text_box.yy",},"order":4,},
+    {"id":{"name":"chaotic_ending_ending","path":"objects/chaotic_ending_ending/chaotic_ending_ending.yy",},"order":21,},
     {"id":{"name":"hermia_duck_talking","path":"sprites/hermia_duck_talking/hermia_duck_talking.yy",},"order":15,},
     {"id":{"name":"titania_sleeping_object","path":"objects/titania_sleeping_object/titania_sleeping_object.yy",},"order":8,},
     {"id":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"order":10,},
@@ -84,6 +86,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"ChaoticEnding","path":"rooms/ChaoticEnding/ChaoticEnding.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

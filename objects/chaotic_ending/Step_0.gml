@@ -14,9 +14,7 @@
 						message_progress = 0;
 					} else {
 						ended = true;
-						with (instance_create_layer(0, 0, "Top", fade_out)) {
-							_title = chaotic_ending.title;
-						}
+						room_goto(ChaoticEnding);
 						instance_destroy();
 					}
 			    } else if (message_progress > 2)
