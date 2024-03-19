@@ -1,7 +1,4 @@
-function Wrap(){
-	_message = argument0;
-	_width = 103;
-	
+function Wrap(_message, _width = 103){
 	_new_message = "";
 	
 	_i = 1;
@@ -12,7 +9,7 @@ function Wrap(){
 		if (string_pos("\n", _words[i]) != 0) {
 			_i = string_length(_new_message);
 		}
-		if (string_length(_words[i]) + 1 + string_length(_new_message) - _i > 103) {
+		if (string_length(_words[i]) + 1 + string_length(_new_message) - _i > _width) {
 			_new_message += "\n";
 			_i = string_length(_new_message);
 		} else {
