@@ -4,7 +4,7 @@ function TitaniaResponseTransform(){
 	switch (_selected) {
 		case 0:
 			NewTextBox("Onward!", [], -1, "Puck");
-			bottom_object.activate_args = ["A stranger Pyramus than e'er played here.\nI'll follow you. I'll lead you about a round,\nThrough bog, through bush, through brake,\nthrough brier.\nSometime a horse I'll be, sometime a hound,\nA hog, a headless bear, sometime a fire,\nAnd neigh and bark and grunt and roar and burn,\nLike horse, hound, hog, bear, fire, at every turn.", [], -1, "Puck", [], ContinueBottom];
+			bottom_object.activate_args = ["A stranger Pyramus than e'er played here.\nI'll follow you. I'll lead you about a round,\nThrough bog, through bush, through brake,\nthrough brier.\nSometime a horse I'll be, sometime a hound,\nA hog, a headless bear, sometime a fire,\nAnd neigh and bark and grunt and roar and burn,\nLike horse, hound, hog, bear, fire, at every turn.", [], -1, "Puck", [bottom_object, bottom, bottom_donkey], ContinueBottom];
 			titania_sleeping_object.activate_args = ["I shall not disturb my queen.", [], -1, "Puck"];
 			break;
 		case 1:

@@ -9,6 +9,7 @@ function ScriptExecuteArray() {
 		case 5: return script_execute(scr, args[0], args[1], args[2], args[3], args[4]);
 		case 6: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5]);
 		case 7: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5], args[6]);
+		case 8: return script_execute(scr, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]);
 		
 	}
 }

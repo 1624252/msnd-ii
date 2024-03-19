@@ -1,4 +1,4 @@
-
+// Fixed oddly.
 function LoversLeave(){
 	//(Lysander and Demetrius chase into the forest) 
 	lysander_object.run = true;
@@ -8,5 +8,5 @@ function LoversLeave(){
 	hermia_object.run = true;
 	helena_object.run = true;
 	
-	NewTextBox("Haha! What fun it do be—that to which mere mortals present me. What fun this dream has been, and what trouble I have made. Now.... shall I fix everything?", ["Reverse all mischief.", "Leave the chaos as is."], FixOrNot, "Puck");
+	NewTextBox("Haha! What fun it do be—that to which mere mortals present me. What fun this dream has been, and what trouble I have made. Now.... shall I fix everything?", ["Reverse all mischief.", "Leave the chaos as is."], FixOrNot, "Puck", [], -1, text_queue_object, 2);
 }
