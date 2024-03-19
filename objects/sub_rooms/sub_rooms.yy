@@ -20,7 +20,7 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":0,"value":"[\"Devoted, I am to my liege indeed. Though the disrespect foreseen did supersede what conventions do abide. Nevertheless, pranks are for naught and mischief oft' forgot. Fear I not, for all shall be well. Starting with the mistake that brought lovers' hell.\", \"Shall I their fond pageant see?\\nLord, what fools these mortals be!\"]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"start2","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"[\"Devoted, I am to my liege indeed. Though the disrespect foreseen did supersede what conventions do abide. Nevertheless, pranks are for naught and mischief oft forgot. Fear I not, for all shall be well. Starting with the mistake that brought lovers' hell.\", \"Shall I their fond pageant see?\\nLord, what fools these mortals be!\"]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"start2","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

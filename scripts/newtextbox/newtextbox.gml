@@ -6,5 +6,7 @@ function NewTextBox(){
 		responses = argument_count > 1 ? argument[1] : [];
 		response_script = argument_count > 2 ? argument[2] : -1;
 		speaker = argument_count > 3 ? argument[3] + "\n" : "";
+		start_end_array = argument_count > 4 ? argument[4] : [];
+		end_function = argument_count > 5 ? argument[5] : -1;
     }
 }
