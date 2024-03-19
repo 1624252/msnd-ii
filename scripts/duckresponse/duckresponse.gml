@@ -25,4 +25,5 @@ function DuckResponse(){
 			NewTextBox("Get you gone, you dwarf,\nYou minimus of hind'ring knotgrass made,\nYou bead, you acorn—", [], -1, "Lysander", [lysander_object, lysander_angry, lysander]);
 			break;
 	}
+	// Don't need to reset because they run off.
 }

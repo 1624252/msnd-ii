@@ -35,7 +35,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "titania_object",
+  "name": "donotusetitania_object",
   "tags": [],
   "resourceType": "GMObject",
 }
