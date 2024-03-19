@@ -5,6 +5,7 @@ function DuckResponse(){
 	
 	switch (_selected) {
 		case 0:
+			camera.transformed_duck = true;
 			hermia_object.sprite_index = hermia_duck;
 			audio_play_sound(duck_audio, 0, 0);
 			NewTextBox("*Music.*", [], -1, "", [], EndDuck);
