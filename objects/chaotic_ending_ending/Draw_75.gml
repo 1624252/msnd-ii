@@ -7,7 +7,7 @@
 	draw_set_font(bold_font);
 	draw_text(1024/2, 90, "Chaotic Ending");
 	draw_set_font(large_font);
-	draw_text(1024/2, 240, "Something's not right...");
+	draw_text(1024/2, 200, "Something's not right...");
 
 	// TODO: Show stuff.
 	
