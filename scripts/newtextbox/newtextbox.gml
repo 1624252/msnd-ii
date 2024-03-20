@@ -4,7 +4,6 @@ function NewTextBox(){
 	
 	if (argument_count > 6)
 		_object = argument[6];
-	show_debug_message(string(_object) + argument[0]);
     with (instance_create_depth(0, 0, -bbox_bottom, _object)) {
         display_message = Wrap(argument[0]);
         origin_instance = instance_exists(other) ? other.id : noone;
