@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"activate_script","path":"objects/parent_entity/parent_entity.yy",},"objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"value":"NewTextBox","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"activate_args","path":"objects/parent_entity/parent_entity.yy",},"objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"value":"[\"Time waits but all for man. A fiend's choice, ought I to apprehend? Take I upon my lord's orders, I do. But to whom do I choose: the queen, or the rambunctious peasant near thy forest's grooves.\", [\"Obey orders and find Bottom.\",\"Disobey orders and transform Titania instead.\"], TitaniaResponseTransform, \"Puck\"]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"activate_args","path":"objects/parent_entity/parent_entity.yy",},"objectId":{"name":"parent_entity","path":"objects/parent_entity/parent_entity.yy",},"value":"[\"Time waits but all for man. A fiend's choice, ought I to apprehend? Take I upon my lord's orders, I do. But to whom do I choose: the queen, or the rambunctious peasant near the forest's grooves.\", [\"Obey orders and find Bottom.\",\"Disobey orders and transform Titania instead.\"], TitaniaResponseTransform, \"Puck\"]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

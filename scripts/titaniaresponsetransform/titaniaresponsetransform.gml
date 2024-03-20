@@ -8,7 +8,7 @@ function TitaniaResponseTransform(){
 			titania_sleeping_object.activate_args = ["I shall not disturb my queen.", [], -1, "Puck"];
 			break;
 		case 1:
-			NewTextBox("Aha! Thy queen 'tis to be, for what greater revenge be but one beyond petty. A more distressing case of royal dignity shall never behold, than turning thy fairies most favored queen into a hippo.", [], -1, "Puck", [titania_sleeping_object, titania_sleeping, titania_hippo]);
+			NewTextBox("Aha! My queen 'tis to be, for what greater revenge be but one beyond petty. A more distressing case of royal dignity shall never behold, than turning thy fairies' most favored queen into a hippo.", [], -1, "Puck", [titania_sleeping_object, titania_sleeping, titania_hippo]);
 			
 			global.transformed_hippo = true;
 			bottom_object.activate_args = ["I already made my choice. Only onwards have I left to go.", [], -1, "Puck"];
