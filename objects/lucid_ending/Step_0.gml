@@ -17,7 +17,8 @@
 						with (instance_create_layer(0, 0, "Top", fade_out)) {
 							_title = lucid_ending.title;
 						}
-						instance_destroy();
+						
+						//instance_destroy();
 					}
 			    } else if (message_progress > 2)
 			        message_progress = _message_length;

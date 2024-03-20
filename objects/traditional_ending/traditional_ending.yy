@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "background_final",
+    "path": "sprites/background_final/background_final.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

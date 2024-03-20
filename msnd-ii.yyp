@@ -16,6 +16,7 @@
     {"id":{"name":"helena","path":"sprites/helena/helena.yy",},"order":6,},
     {"id":{"name":"helena_angry","path":"sprites/helena_angry/helena_angry.yy",},"order":11,},
     {"id":{"name":"DuckResponse","path":"scripts/DuckResponse/DuckResponse.yy",},"order":7,},
+    {"id":{"name":"background_final","path":"sprites/background_final/background_final.yy",},"order":24,},
     {"id":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"order":8,},
     {"id":{"name":"Argument","path":"scripts/Argument/Argument.yy",},"order":6,},
     {"id":{"name":"block","path":"sprites/block/block.yy",},"order":0,},

@@ -1,8 +1,8 @@
 {
 	draw_set_alpha(image_alpha);
 
-	draw_set_color(c_black);
-	draw_rectangle(0,  0, 1024, 640, false);
+	//draw_set_color(c_black);
+	//draw_rectangle(0,  0, 1024, 640, false);
 	
 	var _print_title = string_copy(title, 1, title_progress);
 	var _print = string_copy(messages[message_index], 1, message_progress);

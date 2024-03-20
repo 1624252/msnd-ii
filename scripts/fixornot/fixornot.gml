@@ -37,5 +37,5 @@ function FixOrNot(){
 			break;
 	}
 	
-	instance_create_depth(0, 0, -bbox_bottom, ending_type);
+	instance_create_depth(floor(player_object.x/1024)*1024, floor(player_object.y/640)*640, -bbox_bottom-100, ending_type);
 }
