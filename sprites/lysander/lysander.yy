@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 31,
-  "bbox_top": 2,
+  "bbox_left": 7,
+  "bbox_right": 23,
+  "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,32 +24,28 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/lysander/lysander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/lysander/lysander.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"7fca554a-7613-44ec-ba73-d81df12f44ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/lysander/lysander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/lysander/lysander.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/lysander/lysander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/lysander/lysander.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"0e407d55-a81a-4710-8042-e8f96bcb832b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b62a78e4-ee7f-4b21-b377-1f2f605b0656","path":"sprites/lysander/lysander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b62a78e4-ee7f-4b21-b377-1f2f605b0656","path":"sprites/lysander/lysander.yy",},"LayerId":{"name":"84564e37-347c-4715-a9ec-0f021954c342","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"b62a78e4-ee7f-4b21-b377-1f2f605b0656","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9ba68eb7-4ed6-4947-9b82-e4f7638c42bd","path":"sprites/lysander/lysander.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9ba68eb7-4ed6-4947-9b82-e4f7638c42bd","path":"sprites/lysander/lysander.yy",},"LayerId":{"name":"84564e37-347c-4715-a9ec-0f021954c342","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"lysander","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","name":"9ba68eb7-4ed6-4947-9b82-e4f7638c42bd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"lysander","path":"sprites/lysander/lysander.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"907c5da1-df62-4aa6-be3d-cae10f3e0994","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"3024d243-abe8-4068-a803-7856336556b0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"4f71b1e1-39fb-4724-b1d5-29ea8c83e67b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"3e2c9e85-0f76-4a09-9ff2-c4bce293f73b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b62a78e4-ee7f-4b21-b377-1f2f605b0656","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"ec60d5ac-1834-4967-8ec0-5141cbbee915","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ba68eb7-4ed6-4947-9b82-e4f7638c42bd","path":"sprites/lysander/lysander.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -73,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b070a785-675e-48e5-a633-51414a846830","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84564e37-347c-4715-a9ec-0f021954c342","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -6,9 +6,9 @@ function DuckResponse(){
 	switch (_selected) {
 		case 0:
 			global.transformed_duck = true;
-			hermia_object.sprite_index = hermia_duck;
+			//hermia_object.sprite_index = hermia_duck_talking;
 			audio_play_sound(duck_audio, 0, 0);
-			NewTextBox("*Music.*", [], -1, "", [], EndDuck);
+			NewTextBox("*Music.*", [], -1, "", [hermia_object, hermia_duck_talking, hermia_duck], EndDuck);
 			NewTextBox("A duck? Wherefore, to which Hermia lies, that wicked women reeking an envy no magic doth disguise.", [], -1, "Lysander", [lysander_object, lysander_angry, lysander]);
 			NewTextBox("Incessant hate ought to consume thee, casting wretched curses upon the duck you see.", [], -1, "Demetrius", [demetrius_object, demetrius_angry, demetrius]);
 			NewTextBox("Hark, this cannot be!", [], -1, "Lysander", [lysander_object, lysander_angry, lysander]);

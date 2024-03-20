@@ -9,3 +9,4 @@ current_room = [0, 0]
 global.transformed_hippo = false;
 global.oberon_love = false;
 global.transformed_duck = false;
+global.ended = false;

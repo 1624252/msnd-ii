@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 31,
-  "bbox_top": 2,
+  "bbox_left": 2,
+  "bbox_right": 26,
+  "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,32 +24,28 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"7fca554a-7613-44ec-ba73-d81df12f44ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":{"name":"b070a785-675e-48e5-a633-51414a846830","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"0e407d55-a81a-4710-8042-e8f96bcb832b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"846cb1a8-a10e-4554-81c9-7d0bbbcc0bf7","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"846cb1a8-a10e-4554-81c9-7d0bbbcc0bf7","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":{"name":"7237ff22-afd7-4555-a7b7-87d541d53f1c","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"846cb1a8-a10e-4554-81c9-7d0bbbcc0bf7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cb882784-0772-4f90-b67c-3b9731512dd0","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cb882784-0772-4f90-b67c-3b9731512dd0","path":"sprites/demetrius_angry/demetrius_angry.yy",},"LayerId":{"name":"7237ff22-afd7-4555-a7b7-87d541d53f1c","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","name":"cb882784-0772-4f90-b67c-3b9731512dd0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"demetrius_angry","path":"sprites/demetrius_angry/demetrius_angry.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0fbefb2f-96e1-47ff-b020-05aff9d5fecb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7fca554a-7613-44ec-ba73-d81df12f44ef","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"d4e4ac82-fc5f-441a-87fa-c412bf1be093","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f939412-0674-45c6-b8b9-3c26f732b5cc","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"34bf09d1-fdc2-49bb-a21d-00c925fc8061","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0e407d55-a81a-4710-8042-e8f96bcb832b","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f683d1a4-c64a-4cea-b3cb-9e04907823cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"846cb1a8-a10e-4554-81c9-7d0bbbcc0bf7","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"d9960a71-1b47-42b1-8a7c-fe91231be1b1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb882784-0772-4f90-b67c-3b9731512dd0","path":"sprites/demetrius_angry/demetrius_angry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -73,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b070a785-675e-48e5-a633-51414a846830","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7237ff22-afd7-4555-a7b7-87d541d53f1c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
