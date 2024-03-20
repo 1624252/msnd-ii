@@ -5,6 +5,7 @@ current_room = [0, 0]
 
 //queue = ds_queue_create();
 
-transformed_hippo = false;
-oberon_love = false;
-transformed_duck = false;
+
+global.transformed_hippo = false;
+global.oberon_love = false;
+global.transformed_duck = false;

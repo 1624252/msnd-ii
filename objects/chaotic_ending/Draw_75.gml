@@ -15,7 +15,7 @@
 		draw_set_font(bold_font);
 		draw_text(1024/2, 90, _print_title);
 		draw_set_font(large_font);
-		draw_text(1024/2, 200, _print);
+		draw_text(1024/2, 150, _print);
 		
 		draw_set_font(text_font);
 		draw_set_halign(fa_right);

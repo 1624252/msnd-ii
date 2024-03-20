@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "hermia",
-    "path": "sprites/hermia/hermia.yy",
+    "name": "lysander",
+    "path": "sprites/lysander/lysander.yy",
   },
   "solid": true,
   "visible": true,

@@ -2,9 +2,9 @@ function FixOrNot(){
 	// Fix, not.
 	_selected = argument0;
 	/*
-	show_debug_message(camera.transformed_hippo);
-	show_debug_message(camera.oberon_love);
-	show_debug_message(camera.transformed_duck);
+	show_debug_message(global.transformed_hippo);
+	show_debug_message(global.oberon_love);
+	show_debug_message(global.transformed_duck);
 	*/
 	
 	var _title = "";
@@ -15,7 +15,7 @@ function FixOrNot(){
 	switch (_selected) {
 		case 0:
 			// Fixed.
-			if (camera.transformed_hippo || camera.oberon_love || camera.transformed_duck) {
+			if (global.transformed_hippo || global.oberon_love || global.transformed_duck) {
 				// Changes + reverse.
 				// Lucid ending.
 				ending_type = lucid_ending;
@@ -23,9 +23,10 @@ function FixOrNot(){
 				// Traditional ending: all is well.
 				ending_type = traditional_ending;
 			}
+			break;
 		case 1:
 			// Not fixed.
-			if (camera.transformed_hippo || camera.oberon_love || camera.transformed_duck) {
+			if (global.transformed_hippo || global.oberon_love || global.transformed_duck) {
 				// Not fixed + changes.
 				// Chaotic ending.
 				ending_type = chaotic_ending;
@@ -33,6 +34,7 @@ function FixOrNot(){
 				// No changes. Shouldn't happen.
 				ending_type = traditional_ending;
 			}
+			break;
 	}
 	
 	instance_create_depth(0, 0, -bbox_bottom, ending_type);

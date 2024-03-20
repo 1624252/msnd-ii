@@ -5,7 +5,7 @@ function DuckResponse(){
 	
 	switch (_selected) {
 		case 0:
-			camera.transformed_duck = true;
+			global.transformed_duck = true;
 			hermia_object.sprite_index = hermia_duck;
 			audio_play_sound(duck_audio, 0, 0);
 			NewTextBox("*Music.*", [], -1, "", [], EndDuck);
@@ -23,7 +23,7 @@ function DuckResponse(){
 			NewTextBox("Hark, again!", [], -1, "Lysander", [lysander_object, lysander_angry, lysander], LoversLeave);
 			break;
 		case 1:
-			NewTextBox("Get you gone, you dwarf,\nYou minimus of hind'ring knotgrass made,\nYou bead, you acorn—", [], -1, "Lysander", [lysander_object, lysander_angry, lysander]);
+			NewTextBox("Get you gone, you dwarf,\nYou minimus of hind'ring knotgrass made,\nYou bead, you acorn—", [], -1, "Lysander", [lysander_object, lysander_angry, lysander], TraditionalEnding);
 			break;
 	}
 	// Don't need to reset because they run off.

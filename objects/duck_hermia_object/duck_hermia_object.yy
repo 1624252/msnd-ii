@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "hermia_duck_talking",
+    "path": "sprites/hermia_duck_talking/hermia_duck_talking.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -19,7 +22,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":75,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -29,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "chaotic_ending_ending",
+  "name": "duck_hermia_object",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -14,7 +14,7 @@
 						message_progress = 0;
 					} else {
 						ended = true;
-						room_goto(ChaoticEnding);
+						ChaoticEndingScript();
 						instance_destroy();
 					}
 			    } else if (message_progress > 2)
